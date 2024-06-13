@@ -1,16 +1,11 @@
-# Compiled class file
 *.class
 
-# Log file
 *.log
 
-# BlueJ files
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -19,6 +14,104 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+application.properties
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+!.mvn/wrapper/maven-wrapper.jar
+
+.classpath
+.project
+.settings/
+.springBeans
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+.vscode/
+
+.DS_Store
+Thumbs.db
+
+*.swp
+*~
+*.bak
+
+*.log
+
+*.class
+
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+/.m2
+
+*.tmp
+*.temp
+
+node_modules/
+npm-debug.log
+yarn-error.log
+
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+*.autoreload
+
+/out/
+
+rebel.xml
+
+.AppleDouble
+.LSOverride
+
+._*
+
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# React specific
+/frontend/build/
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# IDE specific for frontend development
+/frontend/.vscode/
+/frontend/.idea/
+/frontend/.eslintcache
